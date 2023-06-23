@@ -13,8 +13,15 @@ public:
 
 	void insert() {
 		int num;
-		cout << "Enter anumber:";
+		cout << "Enter a umber:";
 		cin >> num;
 		cout << endl;
+
+
+		// Cek apakah antrian penuh
+		if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1)) {
+			cout << "\nQueues over flow\n";
+			return;
+		}
 	}
 };
