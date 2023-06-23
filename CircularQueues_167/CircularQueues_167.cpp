@@ -11,4 +11,10 @@ public:
 		REAR = -1;
 	}
 
+	void insert() {
+		int num;
+		cout << "Enter anumber:";
+		cin >> num;
+		cout << endl;
+	}
 };
