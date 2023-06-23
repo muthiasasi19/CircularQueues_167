@@ -126,7 +126,8 @@ int main() {
 				q.display();
 				break;
 			}
-			
+			default:
+				break;
 			}
 
 		}
