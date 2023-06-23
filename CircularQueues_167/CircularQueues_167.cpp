@@ -5,6 +5,10 @@ class Queues {
 	int FRONT, REAR, max = 5;
 	int queue_arrray[5];
 
-publi
+public:
+	Queues() {
+		FRONT = -1;
+		REAR = -1;
+	}
 
 };
