@@ -17,7 +17,7 @@ public:
 		cin >> num;
 		cout << endl;
 
-
+		// max = n (jmlh index)
 		// Cek apakah antrian penuh
 		if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1)) {
 			cout << "\nQueues over flow\n";
@@ -36,7 +36,7 @@ public:
 			else
 				REAR = REAR + 1;
 		}
-		queue_arrray[REAR] = num;
+		queue_arrray[REAR] = num; //step 4
 	}
 
 	void remove() {
@@ -61,6 +61,12 @@ public:
 			else
 				FRONT = FRONT + 1;
 		}
+		
 	}
+	void display() {
+		int FRONT_position = FRONT;
+		int REAR_position = REAR;
+	}
+	
 
 };
